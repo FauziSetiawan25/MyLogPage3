@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyLogPage3" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="inputL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="boxCornerRadiusBottomEnd">20dp</item>
+        <item name="boxCornerRadiusBottomStart">20dp</item>
+        <item name="boxCornerRadiusTopEnd">20dp</item>
+        <item name="boxCornerRadiusTopStart">20dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColorHint">@color/abu</item>
+    </style>
+
+    <style name="Base.Theme.WithActionBar" parent="Theme.Material3.Light">
+
+    </style>
+
+    <style name="Theme.MyLogPage3" parent="Base.Theme.MyLogPage3" />
+</resources>
